@@ -21,6 +21,11 @@ var/raw_data
 https://www.getpostman.com/collections/1f6e78cf01d4c2b60910
 ```
 
+### Testing
+
+- Use postman
+- for the POST requests, change the file, browse a sample file
+
 ## How to use
 
 ### Install
@@ -34,5 +39,3 @@ npm install
 ```
 npm run dev
 ```
-
-###

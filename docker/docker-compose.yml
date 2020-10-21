@@ -1,0 +1,14 @@
+version: "3.0"
+
+services:
+  wheelchairdb:
+    container_name: wheelchairdb
+    image: mongo:latest
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+    volumes:
+      - wheelchair_data:/data/db
+
+volumes:
+  wheelchair_data:
